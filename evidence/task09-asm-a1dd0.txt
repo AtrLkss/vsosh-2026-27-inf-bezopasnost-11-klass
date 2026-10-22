@@ -1,0 +1,23 @@
+ImageBase 0x140000000; file offset 0xa1dd0; preferred VA 0x1400a29d0
+00000001400a29d0  push      rbp
+00000001400a29d1  push      rsi
+00000001400a29d2  push      rdi
+00000001400a29d3  sub       rsp, 0x90
+00000001400a29da  lea       rbp, [rsp + 0x80]
+00000001400a29e2  mov       qword ptr [rbp + 8], 0xfffffffffffffffe
+00000001400a29ea  mov       rsi, rcx
+00000001400a29ed  lea       rdx, [rip + 0x26a5ac] ; RIP -> 0x14030cfa0
+00000001400a29f4  lea       r9, [rip + 0x26a5d5] ; RIP -> 0x14030cfd0
+00000001400a29fb  lea       rcx, [rbp - 0x28]
+00000001400a29ff  mov       r8d, 0x30
+00000001400a2a05  call      0x14012b120
+00000001400a2a0a  mov       rdx, qword ptr [rbp - 0x20]
+00000001400a2a0e  mov       rdi, qword ptr [rbp - 0x18]
+00000001400a2a12  lea       rcx, [rbp - 0x50]
+00000001400a2a16  mov       r8, rdi
+00000001400a2a19  call      0x1400ce520
+00000001400a2a1e  cmp       byte ptr [rbp - 0x50], 0
+00000001400a2a22  je        0x1400a2a7c
+00000001400a2a24  lea       rcx, [rbp - 0x20]
+00000001400a2a28  movups    xmm0, xmmword ptr [rbp - 0x48]
+00000001400a2a2c  mov       rdi, qword ptr [rbp - 0x48]

@@ -1,0 +1,3 @@
+SHA-256: 61f2080ae2860f6e7bf437884467eae1ceb2945fed55571425baa8099639bacb
+AES-GCM authentication tag: valid
+Flag: vsosh{Zh0rrk'nyaa_R'lyeh_d0y_ww}

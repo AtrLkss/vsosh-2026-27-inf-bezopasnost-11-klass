@@ -1,0 +1,12 @@
+Link type: 228 (IPv4)
+Arrival order: [1, 6, 4, 2, 3, 7, 5]
+Part 1/7: dnNvc2h
+Part 2/7: 7aHR0cF
+Part 3/7: 9mcmFnb
+Part 4/7: WVudHNf
+Part 5/7: YXJlX2V
+Part 6/7: 2aWRlbm
+Part 7/7: NlfQ==
+Base64: dnNvc2h7aHR0cF9mcmFnbWVudHNfYXJlX2V2aWRlbmNlfQ==
+Flag: vsosh{http_fragments_are_evidence}
+All parts present; Base64 round trip: OK

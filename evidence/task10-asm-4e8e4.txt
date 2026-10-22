@@ -1,0 +1,16 @@
+ImageBase 0x140000000; file offset 0x4e8e4; preferred VA 0x14004f4e4
+000000014004f4e4  mov       edx, 0x2d
+000000014004f4e9  xor       ecx, ecx
+000000014004f4eb  call      0x14019ae90
+000000014004f4f0  test      rax, rax
+000000014004f4f3  je        0x140050228
+000000014004f4f9  lea       r14, [rbp + 0xd40]
+000000014004f500  movups    xmm0, xmmword ptr [rip + 0x1acbb6] ; RIP -> 0x1401fc0bd
+000000014004f507  movups    xmmword ptr [rax + 0x1d], xmm0
+000000014004f50b  movups    xmm0, xmmword ptr [rip + 0x1acb9e] ; RIP -> 0x1401fc0b0
+000000014004f512  movups    xmmword ptr [rax + 0x10], xmm0
+000000014004f516  movups    xmm0, xmmword ptr [rip + 0x1acb83] ; RIP -> 0x1401fc0a0
+000000014004f51d  movups    xmmword ptr [rax], xmm0
+000000014004f520  mov       qword ptr [rbp + 0xe00], r15
+000000014004f527  movaps    xmm0, xmmword ptr [rip + 0x1a2ce2] ; RIP -> 0x1401f2210
+000000014004f52e  movups    xmmword ptr [rbp + 0xe08], xmm0

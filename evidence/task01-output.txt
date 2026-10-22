@@ -1,0 +1,4 @@
+Flag: vsosh{r3v3rs3_1s_c00l}
+Length: 22
+Checksum: 0x68ce
+Forward check: OK
